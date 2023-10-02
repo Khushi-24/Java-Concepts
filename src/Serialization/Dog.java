@@ -12,4 +12,7 @@ public class Dog implements Serializable {
     transient int j = 20;
 
     transient String password = "hello";
+
+    static int k = 10;
+    transient static int l = 10;
 }

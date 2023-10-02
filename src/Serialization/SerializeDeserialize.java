@@ -29,5 +29,7 @@ public class SerializeDeserialize {
         System.out.println( dog.i); //Output 10
         System.out.println(dog.j); //Output 0
         System.out.println(dog.password); //Output null
+        System.out.println(dog.k); //Output 10 (static variable)
+        System.out.println(dog.l); //Output 10 (transient static variable)
     }
 }
