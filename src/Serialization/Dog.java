@@ -15,4 +15,6 @@ public class Dog implements Serializable {
 
     static int k = 10;
     transient static int l = 10;
+
+    transient final int g = 10;
 }
