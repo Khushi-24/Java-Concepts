@@ -9,5 +9,7 @@ It means that the required ability would be provided by JVM
 public class Dog implements Serializable {
 
     int i = 10;
-    int j = 20;
+    transient int j = 20;
+
+    transient String password = "hello";
 }

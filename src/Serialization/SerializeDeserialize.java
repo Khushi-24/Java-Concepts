@@ -26,6 +26,8 @@ public class SerializeDeserialize {
         ObjectInputStream ois = new ObjectInputStream(fis);
         Dog dog = (Dog) ois.readObject();
 
-        System.out.println( dog.i);
+        System.out.println( dog.i); //Output 10
+        System.out.println(dog.j); //Output 0
+        System.out.println(dog.password); //Output null
     }
 }
